@@ -61,7 +61,7 @@ def app():
         persona_str = ", ".join([f"{key}: {value}" for key, value in persona_data.items()])
         company_str = ", ".join([f"{key}: {value}" for key, value in company_data.items()])
 
-        initial_prompt = f"Erstelle Werbetext basierend auf der User Persona ({persona_str}) und Unternehmensdaten ({company_str})."
+        initial_prompt = f"Erstelle einen Newsletter Werbebeitrag basierend auf der User Persona ({persona_str}) und Unternehmensdaten ({company_str})."
     else:
          initial_prompt = "Bitte geben Sie Informationen zur User Persona und zum Unternehmen ein."
 
